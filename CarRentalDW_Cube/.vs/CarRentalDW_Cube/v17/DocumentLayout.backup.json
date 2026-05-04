@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\CarRental_DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|solutionrelative:CarRentalDW_Cube\\CarRental_DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Branch.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|solutionrelative:CarRentalDW_Cube\\Dim Branch.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|solutionrelative:CarRentalDW_Cube\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Vehicle.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|solutionrelative:CarRentalDW_Cube\\Dim Vehicle.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|solutionrelative:CarRentalDW_Cube\\Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Staff.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|solutionrelative:CarRentalDW_Cube\\Dim Staff.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Fact Rental.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|solutionrelative:CarRentalDW_Cube\\Fact Rental.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\CarRental_DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9D218114-EB5B-D342-2C05-BDC4FC64BEDB}|CarRentalDW_Cube\\CarRentalDW_Cube.dwproj|solutionrelative:CarRentalDW_Cube\\CarRental_DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarRental_DW.cube [Design]",
+              "DocumentMoniker": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\CarRental_DW.cube",
+              "RelativeDocumentMoniker": "CarRentalDW_Cube\\CarRental_DW.cube",
+              "ToolTip": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\CarRental_DW.cube [Design]",
+              "RelativeToolTip": "CarRentalDW_Cube\\CarRental_DW.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T08:23:51.228Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Date.dim",
+              "RelativeDocumentMoniker": "CarRentalDW_Cube\\Dim Date.dim",
+              "ToolTip": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Date.dim [Design]",
+              "RelativeToolTip": "CarRentalDW_Cube\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T08:19:23.627Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Vehicle.dim [Design]",
+              "DocumentMoniker": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Vehicle.dim",
+              "RelativeDocumentMoniker": "CarRentalDW_Cube\\Dim Vehicle.dim",
+              "ToolTip": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Vehicle.dim [Design]",
+              "RelativeToolTip": "CarRentalDW_Cube\\Dim Vehicle.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T08:08:05.815Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Staff.dim [Design]",
+              "DocumentMoniker": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Staff.dim",
+              "RelativeDocumentMoniker": "CarRentalDW_Cube\\Dim Staff.dim",
+              "ToolTip": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Staff.dim [Design]",
+              "RelativeToolTip": "CarRentalDW_Cube\\Dim Staff.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T20:56:06.067Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Customer.dim [Design]",
+              "DocumentMoniker": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Customer.dim",
+              "RelativeDocumentMoniker": "CarRentalDW_Cube\\Dim Customer.dim",
+              "ToolTip": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Customer.dim [Design]",
+              "RelativeToolTip": "CarRentalDW_Cube\\Dim Customer.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T18:27:41.052Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Branch.dim [Design]",
+              "DocumentMoniker": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Branch.dim",
+              "RelativeDocumentMoniker": "CarRentalDW_Cube\\Dim Branch.dim",
+              "ToolTip": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Dim Branch.dim [Design]",
+              "RelativeToolTip": "CarRentalDW_Cube\\Dim Branch.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T08:21:36.818Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Fact Rental.dim [Design]",
+              "DocumentMoniker": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Fact Rental.dim",
+              "RelativeDocumentMoniker": "CarRentalDW_Cube\\Fact Rental.dim",
+              "ToolTip": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\Fact Rental.dim [Design]",
+              "RelativeToolTip": "CarRentalDW_Cube\\Fact Rental.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T08:20:27.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarRental_DW.dsv [Design]",
+              "DocumentMoniker": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\CarRental_DW.dsv",
+              "RelativeDocumentMoniker": "CarRentalDW_Cube\\CarRental_DW.dsv",
+              "ToolTip": "D:\\3Y S1\\DWBI\\p\\CarRentalDW_Cube\\CarRentalDW_Cube\\CarRental_DW.dsv [Design]",
+              "RelativeToolTip": "CarRentalDW_Cube\\CarRental_DW.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T10:09:58.492Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

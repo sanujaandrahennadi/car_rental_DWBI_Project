@@ -1,0 +1,181 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="98d55e92-1770-4c02-b84f-a66c65dca565" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Rental</ID>
+  <Name>Fact Rental</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b64c84f1-6d36-4061-ab1f-907a4a1ec371">
+    <DataSourceViewID>CarRental_DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="6c43b78e-0706-48ab-993d-b2c7a4d4b0e4">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c00aa43e-2d85-45f4-8b19-f434a1bee05a">
+      <ID>Rental SK</ID>
+      <Name>Rental SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="87a0249b-6a75-41d9-b4b2-7d6fe0a5152d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6729f19a-5cf5-4d0f-a0f4-693f05b4aaf6">
+            <TableID>dbo_FactRental</TableID>
+            <ColumnID>RentalSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6858025d-b64b-483d-932b-2630031fdcf0">
+          <AttributeID>Date Key Start</AttributeID>
+          <Name>Date Key Start</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="65408e66-4bdd-4776-a351-48dc1059ffd3">
+          <AttributeID>Branch SK</AttributeID>
+          <Name>Branch SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2135d5ce-f360-41f6-ba73-a322a1ff9316">
+          <AttributeID>Customer SK</AttributeID>
+          <Name>Customer SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f87ff08a-0126-4d94-afb4-2fb0d0179fec">
+          <AttributeID>Vehicle SK</AttributeID>
+          <Name>Vehicle SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e9ecf030-420d-483e-a8c1-2420eb238d44">
+          <AttributeID>Staff SK</AttributeID>
+          <Name>Staff SK</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a592e09f-01ab-46c6-ae24-3ac429ca52cc">
+      <ID>Date Key Start</ID>
+      <Name>Date Key Start</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="568d62d5-8ea0-48c7-ac90-de72acc0be31">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8fe01268-1699-40dc-9589-b96f0a8d0b1e">
+            <TableID>dbo_FactRental</TableID>
+            <ColumnID>DateKey_Start</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="38ee57a1-5c93-4e5c-a33a-07fcbcdafd6f">
+      <ID>Branch SK</ID>
+      <Name>Branch SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9ad5be6e-49d4-44e2-a7c3-3cea33c08ee3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fd731e1c-43a5-4d7e-81dd-4bff9f366061">
+            <TableID>dbo_FactRental</TableID>
+            <ColumnID>BranchSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bf18cd40-a27d-4e0e-b25b-b31dd86de0e2">
+      <ID>Customer SK</ID>
+      <Name>Customer SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d4497f32-9b26-45bf-95e6-f0945aa70ae4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="48d0c361-a19d-4078-8f07-8311f4ce5056">
+            <TableID>dbo_FactRental</TableID>
+            <ColumnID>CustomerSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e3e71cdb-5ba1-4cd8-984f-128c9e3b0fb0">
+      <ID>Vehicle SK</ID>
+      <Name>Vehicle SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8b3fad28-67ba-40ef-9e35-0678809bfb5a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="76e9b460-f67a-44eb-ada5-9e8e66230e87">
+            <TableID>dbo_FactRental</TableID>
+            <ColumnID>VehicleSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="884bbd0a-4f5d-41c0-a2fb-61d9d0bcf3f4">
+      <ID>Staff SK</ID>
+      <Name>Staff SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e9d2ea8f-72ae-4909-becd-3e987383f24d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="707b7945-db1c-4c19-9730-8a150a22940a">
+            <TableID>dbo_FactRental</TableID>
+            <ColumnID>StaffSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
